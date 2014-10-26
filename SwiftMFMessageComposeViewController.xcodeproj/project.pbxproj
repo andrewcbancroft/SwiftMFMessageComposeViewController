@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F25208FE19FDA43000F08AFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25208FD19FDA43000F08AFE /* AppDelegate.swift */; };
+		F252090019FDA43000F08AFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25208FF19FDA43000F08AFE /* ViewController.swift */; };
+		F252090319FDA43000F08AFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F252090119FDA43000F08AFE /* Main.storyboard */; };
+		F252090519FDA43000F08AFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F252090419FDA43000F08AFE /* Images.xcassets */; };
+		F252090819FDA43000F08AFE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F252090619FDA43000F08AFE /* LaunchScreen.xib */; };
+		F252091419FDA43000F08AFE /* SwiftMFMessageComposeViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F252091319FDA43000F08AFE /* SwiftMFMessageComposeViewControllerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F252090E19FDA43000F08AFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F25208F019FDA43000F08AFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F25208F719FDA43000F08AFE;
+			remoteInfo = SwiftMFMessageComposeViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F25208F819FDA43000F08AFE /* SwiftMFMessageComposeViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftMFMessageComposeViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25208FC19FDA43000F08AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F25208FD19FDA43000F08AFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F25208FF19FDA43000F08AFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F252090219FDA43000F08AFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F252090419FDA43000F08AFE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F252090719FDA43000F08AFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F252090D19FDA43000F08AFE /* SwiftMFMessageComposeViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMFMessageComposeViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F252091219FDA43000F08AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F252091319FDA43000F08AFE /* SwiftMFMessageComposeViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMFMessageComposeViewControllerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F25208F519FDA43000F08AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F252090A19FDA43000F08AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F25208EF19FDA43000F08AFE = {
+			isa = PBXGroup;
+			children = (
+				F25208FA19FDA43000F08AFE /* SwiftMFMessageComposeViewController */,
+				F252091019FDA43000F08AFE /* SwiftMFMessageComposeViewControllerTests */,
+				F25208F919FDA43000F08AFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F25208F919FDA43000F08AFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F25208F819FDA43000F08AFE /* SwiftMFMessageComposeViewController.app */,
+				F252090D19FDA43000F08AFE /* SwiftMFMessageComposeViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F25208FA19FDA43000F08AFE /* SwiftMFMessageComposeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F25208FD19FDA43000F08AFE /* AppDelegate.swift */,
+				F25208FF19FDA43000F08AFE /* ViewController.swift */,
+				F252090119FDA43000F08AFE /* Main.storyboard */,
+				F252090419FDA43000F08AFE /* Images.xcassets */,
+				F252090619FDA43000F08AFE /* LaunchScreen.xib */,
+				F25208FB19FDA43000F08AFE /* Supporting Files */,
+			);
+			path = SwiftMFMessageComposeViewController;
+			sourceTree = "<group>";
+		};
+		F25208FB19FDA43000F08AFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F25208FC19FDA43000F08AFE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F252091019FDA43000F08AFE /* SwiftMFMessageComposeViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F252091319FDA43000F08AFE /* SwiftMFMessageComposeViewControllerTests.swift */,
+				F252091119FDA43000F08AFE /* Supporting Files */,
+			);
+			path = SwiftMFMessageComposeViewControllerTests;
+			sourceTree = "<group>";
+		};
+		F252091119FDA43000F08AFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F252091219FDA43000F08AFE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F25208F719FDA43000F08AFE /* SwiftMFMessageComposeViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F252091719FDA43000F08AFE /* Build configuration list for PBXNativeTarget "SwiftMFMessageComposeViewController" */;
+			buildPhases = (
+				F25208F419FDA43000F08AFE /* Sources */,
+				F25208F519FDA43000F08AFE /* Frameworks */,
+				F25208F619FDA43000F08AFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftMFMessageComposeViewController;
+			productName = SwiftMFMessageComposeViewController;
+			productReference = F25208F819FDA43000F08AFE /* SwiftMFMessageComposeViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F252090C19FDA43000F08AFE /* SwiftMFMessageComposeViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F252091A19FDA43000F08AFE /* Build configuration list for PBXNativeTarget "SwiftMFMessageComposeViewControllerTests" */;
+			buildPhases = (
+				F252090919FDA43000F08AFE /* Sources */,
+				F252090A19FDA43000F08AFE /* Frameworks */,
+				F252090B19FDA43000F08AFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F252090F19FDA43000F08AFE /* PBXTargetDependency */,
+			);
+			name = SwiftMFMessageComposeViewControllerTests;
+			productName = SwiftMFMessageComposeViewControllerTests;
+			productReference = F252090D19FDA43000F08AFE /* SwiftMFMessageComposeViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F25208F019FDA43000F08AFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Andrew Bancroft";
+				TargetAttributes = {
+					F25208F719FDA43000F08AFE = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					F252090C19FDA43000F08AFE = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = F25208F719FDA43000F08AFE;
+					};
+				};
+			};
+			buildConfigurationList = F25208F319FDA43000F08AFE /* Build configuration list for PBXProject "SwiftMFMessageComposeViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F25208EF19FDA43000F08AFE;
+			productRefGroup = F25208F919FDA43000F08AFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F25208F719FDA43000F08AFE /* SwiftMFMessageComposeViewController */,
+				F252090C19FDA43000F08AFE /* SwiftMFMessageComposeViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F25208F619FDA43000F08AFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F252090319FDA43000F08AFE /* Main.storyboard in Resources */,
+				F252090819FDA43000F08AFE /* LaunchScreen.xib in Resources */,
+				F252090519FDA43000F08AFE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F252090B19FDA43000F08AFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F25208F419FDA43000F08AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F252090019FDA43000F08AFE /* ViewController.swift in Sources */,
+				F25208FE19FDA43000F08AFE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F252090919FDA43000F08AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F252091419FDA43000F08AFE /* SwiftMFMessageComposeViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F252090F19FDA43000F08AFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F25208F719FDA43000F08AFE /* SwiftMFMessageComposeViewController */;
+			targetProxy = F252090E19FDA43000F08AFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F252090119FDA43000F08AFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F252090219FDA43000F08AFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F252090619FDA43000F08AFE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F252090719FDA43000F08AFE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F252091519FDA43000F08AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F252091619FDA43000F08AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F252091819FDA43000F08AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftMFMessageComposeViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F252091919FDA43000F08AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftMFMessageComposeViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F252091B19FDA43000F08AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftMFMessageComposeViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftMFMessageComposeViewController.app/SwiftMFMessageComposeViewController";
+			};
+			name = Debug;
+		};
+		F252091C19FDA43000F08AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftMFMessageComposeViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftMFMessageComposeViewController.app/SwiftMFMessageComposeViewController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F25208F319FDA43000F08AFE /* Build configuration list for PBXProject "SwiftMFMessageComposeViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F252091519FDA43000F08AFE /* Debug */,
+				F252091619FDA43000F08AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F252091719FDA43000F08AFE /* Build configuration list for PBXNativeTarget "SwiftMFMessageComposeViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F252091819FDA43000F08AFE /* Debug */,
+				F252091919FDA43000F08AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F252091A19FDA43000F08AFE /* Build configuration list for PBXNativeTarget "SwiftMFMessageComposeViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F252091B19FDA43000F08AFE /* Debug */,
+				F252091C19FDA43000F08AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F25208F019FDA43000F08AFE /* Project object */;
+}
