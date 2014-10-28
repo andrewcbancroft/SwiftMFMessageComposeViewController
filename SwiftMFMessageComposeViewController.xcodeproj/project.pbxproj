@@ -13,6 +13,7 @@
 		F252090519FDA43000F08AFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F252090419FDA43000F08AFE /* Images.xcassets */; };
 		F252090819FDA43000F08AFE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F252090619FDA43000F08AFE /* LaunchScreen.xib */; };
 		F252091419FDA43000F08AFE /* SwiftMFMessageComposeViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F252091319FDA43000F08AFE /* SwiftMFMessageComposeViewControllerTests.swift */; };
+		F252091E19FDAAAC00F08AFE /* MessageComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F252091D19FDAAAC00F08AFE /* MessageComposer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		F252090D19FDA43000F08AFE /* SwiftMFMessageComposeViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMFMessageComposeViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F252091219FDA43000F08AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F252091319FDA43000F08AFE /* SwiftMFMessageComposeViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMFMessageComposeViewControllerTests.swift; sourceTree = "<group>"; };
+		F252091D19FDAAAC00F08AFE /* MessageComposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageComposer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +79,10 @@
 		F25208FA19FDA43000F08AFE /* SwiftMFMessageComposeViewController */ = {
 			isa = PBXGroup;
 			children = (
-				F25208FD19FDA43000F08AFE /* AppDelegate.swift */,
-				F25208FF19FDA43000F08AFE /* ViewController.swift */,
 				F252090119FDA43000F08AFE /* Main.storyboard */,
+				F25208FF19FDA43000F08AFE /* ViewController.swift */,
+				F252091D19FDAAAC00F08AFE /* MessageComposer.swift */,
+				F25208FD19FDA43000F08AFE /* AppDelegate.swift */,
 				F252090419FDA43000F08AFE /* Images.xcassets */,
 				F252090619FDA43000F08AFE /* LaunchScreen.xib */,
 				F25208FB19FDA43000F08AFE /* Supporting Files */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F252091E19FDAAAC00F08AFE /* MessageComposer.swift in Sources */,
 				F252090019FDA43000F08AFE /* ViewController.swift in Sources */,
 				F25208FE19FDA43000F08AFE /* AppDelegate.swift in Sources */,
 			);
