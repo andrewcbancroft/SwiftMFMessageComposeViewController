@@ -1,10 +1,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+	// Create a MessageComposer
+	let messageComposer = MessageComposer()
+	
 	@IBAction func sendTextMessageButtonTapped(sender: UIButton) {
-		// Create a MessageComposer
-		let messageComposer = MessageComposer()
-		
 		// Make sure the device can send text messages
 		if (messageComposer.canSendText()) {
 			// Obtain a configured MFMessageComposeViewController
